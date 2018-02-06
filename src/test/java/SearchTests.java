@@ -17,6 +17,11 @@ public class SearchTests {
         driver.get("http://literatura.by/");
     }
 
+    @Test
+    public static void needToAddToGit(){
+
+    }
+
     @AfterMethod
     public static void finish(){
         driver.quit();
